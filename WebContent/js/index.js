@@ -1,9 +1,11 @@
 liclick = function(){
 	var menu = $('#Header').html();
-	
 	alert(menu);
+	
 	$('#content').html(menu);
-	$('#content').slideup(200, function(){
+	$('#content').show();
+	
+	$('#content').slideUp(2000, function(){
 			       alert('content is slided up.')
 })
 	
